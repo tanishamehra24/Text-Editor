@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+        <!--heading-->
+        <h1>TEXT EDITOR</h1>
+        <!--options-->
+        <div class="navbar">
+            <!--font Color-->
+    <div id="input-color">
+        <input type="color" id="font-color" class="adv-option-button">
+        <label for="font-color">Font Color</label>
+    </div>
+          <!--font Name-->
+         <select id="font" class="adv-option-button"></select>
+         <!--font Size-->
+                <select id="font-size" class="adv-option-button"></select>
+                <!--undo and redo -->
+     <button id="undo" class="option-button">
+                <i class="fa-solid fa-rotate-left"></i>
+            </button>
+          <button id="redo" class="option-button">
+            <i class="fa-solid fa-rotate-right"></i>
+          </button>
+ </div>
+ <div id="textbox" contenteditable="true">
+    
+ </div>
+
+    <script src="web.js"></script>
+</body>
+</html>
