@@ -29,9 +29,7 @@ h1{
     gap: 8px;
 }
 input[type="color"]{
--webkit-appearance: none;
--moz-appearance: none;
-appearance: none;
+appearance:auto;
 background-color: transparent;
 border: none;
 cursor :pointer;
