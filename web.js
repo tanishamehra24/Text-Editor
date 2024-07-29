@@ -53,7 +53,8 @@ optionButton.forEach((button)=>{
     });
 
 
-//adding event listeners for buttons like font color.
+//adding event listeners for buttons like font color-working
+//font size and name- not working
 advanceButtons.forEach((button)=>{
     button.addEventListener("change",()=>{
         modifyText(button.id,false,button.value);
