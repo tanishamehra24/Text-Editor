@@ -41,6 +41,7 @@ fontSize.value=3;
 const modifyText=(command,defaultUi,value)=>{
 document.execCommand(command,defaultUi,value);
 };
+
 //adding event listener for option buttons
 optionButton.forEach((button)=>{
     button.addEventListener("click",()=>{
