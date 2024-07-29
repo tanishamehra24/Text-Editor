@@ -18,7 +18,7 @@ let fontFamily=[
 ];
 
 //initial settings
-
+const initializer=()=>{
 //adding font names 
 fontFamily.map((value)=>{
   let option=document.createElement("option");
@@ -39,6 +39,7 @@ for(let i=1;i<=7;i++){
 };
 //default size for font
 fontSize.value=3;
+};
 
 //to modify text 
 const modifyText=(command, defaultUi, value)=>{
@@ -60,3 +61,5 @@ advanceButtons.forEach((button)=>{
         modifyText(button.id,false,button.value);
     });
 });
+
+window.onload=initializer();
