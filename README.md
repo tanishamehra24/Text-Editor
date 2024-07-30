@@ -6,8 +6,6 @@
  3. Changes Font Size
  4. Undo and Redo the changes.
 
-# This website uses HTML, CSS and JavaScript.
-
 # USER GUIDE 
 1. Text Editor is a pure Javascript web app. All processing is done locally in your web browser and on your computer.
 2. Standard text editor features are supported here like change in font color,fontsize and font family along with undo and redo text options.
